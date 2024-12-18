@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files       = Dir["{app,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.md"]
   s.version     = Fancybox2::Rails::VERSION
 
-  s.add_dependency "railties", ">= 3.1.0", "< 8.0"
+  s.add_dependency "railties", ">= 3.1.0", "< 9.0"
   s.add_development_dependency "rails", ">= 3.1"
   s.add_development_dependency "jquery-rails"
   s.add_development_dependency 'coffee-rails'
